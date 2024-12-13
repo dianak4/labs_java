@@ -23,14 +23,4 @@ public class Twenty_five_2 {
         // Повертаємо результат
         return "Місяць: " + month + ", День місяця: " + dayOfMonth;
     }
-
-    public static void main(String[] args) {
-        // Перевірка на прикладі
-        int dayOfYear = Integer.parseInt(args[0]);  // День в році, який передається як аргумент
-        boolean isLeapYear = Boolean.parseBoolean(args[1]);  // Високосний рік чи ні (булеве значення)
-
-        // Виклик функції
-        String result = getMonthAndDay(dayOfYear, isLeapYear);
-        System.out.println(result);
-    }
 }
