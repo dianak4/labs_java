@@ -18,19 +18,4 @@ public class Eleven_3 {
 
         return positions;
     }
-
-    // Метод для виконання програми (зчитування даних)
-    public static void processInput(String text, String[] symbols) {
-        for (String symbol : symbols) {
-            if (symbol.equals("-")) {
-                break;
-            }
-            char character = symbol.charAt(0);
-            ArrayList<Integer> positions = findCharacterPositions(text, character);
-            // Тут ми просто обробляємо результат, не виводячи його в консоль
-            // Наприклад, можемо повернути результат або обробити в іншому методі
-            // Результат можна повертати або зберігати в списку/масиві
-            // В даному випадку результат не виводиться
-        }
-    }
 }
