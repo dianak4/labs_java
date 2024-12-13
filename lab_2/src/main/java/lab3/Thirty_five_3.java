@@ -22,14 +22,4 @@ public class Thirty_five_3 {
 
         return result;
     }
-
-    public static void main(String[] args) {
-        // Перший аргумент - це підрядок, який шукаємо
-        if (args.length > 1) {
-            String substring = args[0];
-            ArrayList<String> result = findSubstringArguments(substring, args);
-
-            // Використовувати результат для тестування або подальшої обробки (без виведення на консоль)
-        }
-    }
 }
